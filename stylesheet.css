@@ -3,103 +3,71 @@ body{
 }
 
 a{
-  text-decoration: none;
-  color:inherit;
+    text-decoration: none;
+    color:inherit;
 }
-
+  
 .container{
-  height: 45%;
-  width:100%;
-  
+    height: 45%;
+    width:100%;
+    
 }
-
+  
 .metsos{
-  font-size:9px;
-  background-color:rgb(245, 187, 177);
-  color:white;
-  padding:5px;
-  padding-left: 0px;
-  text-align: left;
+    font-size:9px;
+    background-color:rgb(245, 187, 177);
+    color:white;
+    padding:5px;
+    padding-left: 0px;
+    text-align: left;
 }
-
-.metsos ul li{
-  display: inline-block;
-  color:white;
-}
-
-.metsos ul li a:hover {
-  opacity:0.5;
-  padding-left: 7px;
-}
-
-header{
-  font-family:monospace;
-  background-color: white;
-  width: 100%;
-  height: 100px;
-}
-
-.header-left{
-  float:left;
-}
-
-
-.header-left h1{
-  color:rgb(245, 187, 177);
-  font-size:18px;
-  padding-left:12px;
-}
-
-.header-right{
-  float: right; 
-}
-
-.header-right ul li{
-  display: inline-block;
-}
-
-.header-right a{
-  padding-right: 7px;
-  padding-left: 0px;
-  color:rgb(245, 187, 177);
-  font-size: 18px;
-
   
+.metsos ul li{
+    display: inline-block;
+    color:white;
 }
-
-.header-right a:hover{
-  opacity:0.5;
+  
+.metsos ul li a:hover {
+    opacity:0.5;
+    padding-left: 7px;
 }
-
-.container span{
+  
+header{
+    font-family:monospace;
+    background-color: white;
+    width: 100%;
+    height: 100px;
+}
+  
+.header-left{
+    float:left;
+}  
+  
+.header-left h1{
     color:rgb(245, 187, 177);
+    font-size:18px;
+    padding-left:12px;
 }
-
-.top-wrapper{
-    padding: 112px 0px ; 
-    background-image: url(https://ds393qgzrxwzn.cloudfront.net/cat1/img/images/0/D6qrGeRZEg.jpg);
-    background-size:contain;
-    text-align:center;
+  
+.header-right{
+    float: right; 
 }
-
-.top-wrapper h1{
-    height: 40px;
-    font-size:xxx-large;
-    letter-spacing:4px;
+  
+.header-right ul li{
+    display: inline-block;
 }
-
-.top-wrapper h2{
-    height: 25px;
-    color:rgb(146, 146, 245);
-    letter-spacing:2px;
+  
+.header-right a{
+    padding-right: 7px;
+    padding-left: 0px;
+    color:rgb(245, 187, 177);
+    font-size: 18px;
 }
-
-.top-wrapper p{
-    height: 10px;
-    color:black;
-    letter-spacing:1px
+  
+.header-right a:hover{
+    opacity:0.5;
 }
-
+  
 .lesson-wrapper{
     background-color:rgb(245, 187, 177);
     height: 900px;
@@ -147,7 +115,7 @@ header{
 }
 
 footer{
-  padding: 30px 10px;
-  background-color: rgb(243, 204, 197);
-  color:rgb(253, 143, 123);
+    padding: 30px 10px;
+    background-color: rgb(243, 204, 197);
+    color:rgb(253, 143, 123);
 }
